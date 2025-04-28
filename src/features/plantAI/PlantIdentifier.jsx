@@ -166,7 +166,7 @@ const PlantIdentifier = () => {
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-5 px-12 rounded-full text-xl transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 disabled:opacity-50 disabled:pointer-events-none"
               disabled={!selectedImage || loading}
             >
-              {loading ? "Identifying..." : "Identify Now! 🔍"}
+              {loading ? "Identifying...." : "Identify Now! 🔍"}
             </button>
 
             {prediction && (
